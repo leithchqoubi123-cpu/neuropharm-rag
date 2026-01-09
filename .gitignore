@@ -1,0 +1,9 @@
+# Fichiers secrets
+.env
+.streamlit/
+secrets.toml
+
+# Fichiers python inutiles
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
