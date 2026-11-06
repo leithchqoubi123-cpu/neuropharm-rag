@@ -2,11 +2,13 @@
 
 **NeuroPharm AI** est un assistant intelligent spécialisé dans la prise en charge de la migraine. 
 
-Contrairement à un ChatGPT classique, il utilise une architecture **RAG (Retrieval-Augmented Generation)** connectée à **Google Vertex AI Search**. Il ne répond qu'en se basant sur une base de connaissances fermée et vérifiée : les lois et recommandations officielles françaises (HAS, SFEMC).
+Contrairement à un ChatGPT classique, il utilise une architecture **RAG (Retrieval-Augmented Generation)** connectée à **Google Vertex AI Search**. Il ne répond qu'en se basant sur une base de connaissances fermée et vérifiée : les recommandations françaises de la HAS et de la SFEMC.
+
+> **Statut** : démo non hébergée actuellement, code disponible dans ce dépôt.
 
 ## 🚀 Fonctionnalités Clés
 
-* **🕵️‍♂️ Zéro Hallucination** : L'IA répond uniquement si l'information est dans les documents officiels.
+* **🕵️‍♂️ Réponses limitées au corpus documentaire** : les réponses sont générées à partir des documents indexés, ce qui limite le risque d'hallucination.
 * **📚 Citations Précises** : Chaque affirmation est sourcée avec un lien vers le document PDF d'origine.
 * **🏥 Expert Médical** : Capable de répondre sur les traitements, les contre-indications (ex: Triptans) et le diagnostic.
 * **🔒 Sécurité** : Gestion des accès via Google Cloud IAM et secrets sécurisés.
@@ -26,8 +28,8 @@ Pour tester ce projet localement :
 
 1.  **Cloner le dépôt**
     ```bash
-    git clone https://github.com/leithchqoubi123/neuropharm-rag.git
-cd neuropharm-rag
+    git clone https://github.com/leithchqoubi123-cpu/neuropharm-rag.git
+    cd neuropharm-rag
     ```
 
 2.  **Installer les dépendances**
@@ -55,4 +57,4 @@ cd neuropharm-rag
 Cet outil est une démonstration technique (POC) à visée éducative. Il ne remplace en aucun cas l'avis d'un professionnel de santé.
 
 ---
-*Projet réalisé par [CHQOUBI Leith] - 2026*
+*Projet réalisé par Leith Chqoubi – 2025*
